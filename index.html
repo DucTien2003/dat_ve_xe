@@ -17,30 +17,47 @@
 
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
     <title>TOP 1 dịch vụ thuê xe du lịch Phú Quốc UY TÍN, GIÁ TỐT</title>
   </head>
   <body>
     <div id="wrapper">
+      <!-- fixed -->
+      <div class="calldang">
+        <div class="calldang-inner">
+          <a href="tel: 0914 299 909">
+            <img src="./assets/icon/call.svg" alt="image" />
+          </a>
+
+          <div class="calling-phone">
+            <a href="tel: 0914 299 909">0914 299 909</a>
+          </div>
+        </div>
+      </div>
+
       <!-- header -->
       <header id="header" class="header content-center">
         <div class="header-wrapper">
           <div class="header-inner container d-flex content-center">
             <!-- logo -->
-            <div class="header__logo">
+            <div class="header__logo content-center">
               <a href="/" title="THUÊ XE DU LỊCH PHÚ QUỐC">
                 <img src="./assets/img/logo.png" alt="THUÊ XE DU LỊCH PHÚ QUỐC" />
               </a>
             </div>
             <!-- navbar -->
-            <div class="header__navbar content-center">
+            <div class="header__menu hide-md-up">
+              <img src="./assets/icon/menu.svg" alt="image" />
+            </div>
+            <div class="header__navbar content-center hide-md-down">
               <ul class="navbar__list d-flex">
                 <li class="navbar__item"><a href="/">TRANG CHỦ</a></li>
-                <li class="navbar__item"><a href="/">GIỚI THIỆU</a></li>
-                <li class="navbar__item"><a href="/">TRẢI NGHIỆM</a></li>
-                <li class="navbar__item"><a href="/">BLOG</a></li>
-                <li class="navbar__item"><a href="/">LIÊN HỆ</a></li>
+                <li class="navbar__item"><a href="/recomment.html">GIỚI THIỆU</a></li>
+                <li class="navbar__item"><a href="/experience.html">TRẢI NGHIỆM</a></li>
+                <li class="navbar__item"><a href="/blog.html">BLOG</a></li>
+                <li class="navbar__item"><a href="/contact.html">LIÊN HỆ</a></li>
                 <li class="navbar__item has-sub-navbar position-relative">
-                  <a href="/" class="content-center position-relative">
+                  <a href="/service.html" class="content-center position-relative">
                     DỊCH VỤ
                     <img
                       src="/assets/icon/down-arrow.svg"
@@ -70,9 +87,9 @@
           </section>
 
           <!-- recomment -->
-          <section class="section recomment flex-column">
-            <div class="recomment__content row">
-              <div class="recomment__content__text flex-column col col-12 col-sm-12 col-lg-6">
+          <section class="section recomment flex-column row">
+            <div class="recomment__content">
+              <div class="recomment__content__text flex-column col-12 col-sm-12 col-md-6">
                 <div class="gap"></div>
                 <h2 class="recomment__heading">THUÊ XE DU LỊCH PHÚ QUỐC</h2>
                 <p class="recomment__text">
@@ -85,7 +102,7 @@
                 </p>
                 <a class="recomment__btn">HOTLINE: 0914299909- 0984299909</a>
               </div>
-              <div class="recomment__content__img col col-12 col-sm-12 col-lg-6">
+              <div class="recomment__content__img col-12 col-sm-12 col-md-6 content-center">
                 <div class="recomment__img">
                   <img src="./assets/img/recomment__content__img.jpg" alt="img" />
                 </div>
@@ -215,7 +232,7 @@
                   </div>
                 </div>
                 <div class="sub-recomment__content d-flex">
-                  <div class="sub-recomment__text col col-md-6 col-sm-12">
+                  <div class="sub-recomment__text col-md-6 col-sm-12">
                     Thuê xe Du Lịch Phú Quốc là một trong những đơn vị chuyên cung cấp dịch vụ cho
                     thuê xe du lịch uy tín. Chất lượng tại Phú Quốc phục vụ nhu cầu du khách gần xa.
                     <br /><br />
@@ -224,7 +241,7 @@
                     theo số Km, thuê xe thuê xe dài hạn theo hợp đồng, thuê xe tháng, thuê xe tự
                     lái, có lái,…
                   </div>
-                  <div class="sub-recomment__img col col-md-6 col-sm-12">
+                  <div class="sub-recomment__img col-md-6 col-sm-12">
                     <img src="./assets/img/sub-recomment-img.jpg" alt="" />
                   </div>
                 </div>
@@ -235,13 +252,13 @@
           <!-- banner-section -->
           <section class="section banner row">
             <div class="banner-wrapper d-flex">
-              <div class="col col-lg-4 col-md-1 banner-block">
+              <div class="col-md-4 col-sm-12 banner-block">
                 <div class="banner-item">
                   <img src="./assets/img/banner_1.jpg" alt="img" />
                   <button class="banner-btn"><a href="/">Thuê xe 4 chỗ</a></button>
                 </div>
               </div>
-              <div class="col col-lg-4 banner-block">
+              <div class="col-md-4 col-sm-12 banner-block sm-d-flex sm-height-200">
                 <div class="banner-item banner-item-half">
                   <img src="./assets/img/banner_2.jpg" alt="img" />
                   <button class="banner-btn"><a href="/">Thuê xe 5 chỗ</a></button>
@@ -251,7 +268,7 @@
                   <button class="banner-btn"><a href="/">Thuê xe 7 chỗ</a></button>
                 </div>
               </div>
-              <div class="col col-lg-4 banner-block">
+              <div class="col-md-4 col-sm-12 banner-block">
                 <div class="banner-item">
                   <img src="./assets/img/banner_4.jpg" alt="img" />
                   <button class="banner-btn"><a href="/">Thuê xe 16 chỗ</a></button>
@@ -275,6 +292,81 @@
       </main>
 
       <!-- footer -->
+      <footer id="footer">
+        <div class="footer-wrapper row">
+          <div class="col col-sm-12 col-lg-5">
+            <div class="footer__inner-1">
+              <div class="footer__img">
+                <img src="./assets/img/footer_img.png" alt="image" />
+              </div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <img src="./assets/icon/right-arrow.svg" alt="image" />
+                  <span>Hotline: 0914 299 909 - 0984 299 909</span>
+                </li>
+                <li class="footer__item">
+                  <img class="padding-img" src="./assets/icon/right-arrow.svg" alt="image" />
+                  <span>
+                    Địa chỉ: Đường Nguyễn Văn Cừ, Ấp Suối Mây, Xã Dương Tơ, TP Phú Quốc Tỉnh Kiên
+                    Giang
+                  </span>
+                </li>
+                <li class="footer__item">
+                  <img src="./assets/icon/right-arrow.svg" alt="image" />
+                  <span>Website: Thuexedulichphuquoc.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-7">
+            <div class="footer__inner-2 d-flex">
+              <div class="col col-md-6 col-sm-12">
+                <h2 class="footer__heading">Dịch Vụ Thuê Xe Du Lịch</h2>
+                <div class="footer__list">
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Thuê Xe 4 Chỗ</span>
+                  </li>
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Thuê Xe 5 Chỗ</span>
+                  </li>
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Thuê Xe 7 Chỗ</span>
+                  </li>
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Thuê Xe 16 Chỗ</span>
+                  </li>
+                </div>
+              </div>
+              <div class="col col-md-6 col-sm-12">
+                <h2 class="footer__heading">Chính sách</h2>
+                <div class="footer__list">
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Hình Thức Đặt Xe - Thuê Xe</span>
+                  </li>
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Hình Thức Thanh Toán</span>
+                  </li>
+                  <li class="footer__item">
+                    <img class="padding-img" src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Chính sách hủy dịch vụ và hoàn tiền khách hàng</span>
+                  </li>
+
+                  <li class="footer__item">
+                    <img src="./assets/icon/right-arrow.svg" alt="image" />
+                    <span>Chính sách Bảo Mật Thông Tin</span>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 
