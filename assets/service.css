@@ -1,61 +1,50 @@
-p {
+.service__text {
   margin-bottom: 20px;
   font-size: 1.76rem;
 }
 
-p img {
-  margin-bottom: 40px;
-}
-
-a b i {
+.service__text--link {
   color: #0b344e;
 }
 
-a b i:hover {
+.service__text--link:hover {
   color: black;
 }
 
-li {
-  list-style: default;
-}
-
-h2 {
+.service__text--heading {
   margin-bottom: 20px;
   font-size: 2.8rem;
-  font-weight: 700;
 }
 
-h3 {
+.service__text--sub-heading {
   margin-bottom: 16px;
   font-size: 2.2rem;
-  font-weight: 700;
 }
 
-img {
+.service__image {
   width: 100%;
 }
 
-figure {
+.service__banner {
   margin: 0;
 }
 
-figcaption {
+.service__banner--caption {
   font-size: 1.6rem;
   padding: 5px;
   background: rgba(0, 0, 0, 0.05);
   margin-bottom: 70px;
 }
 
-blockquote {
+.service__list {
   margin: 30px 0;
-  font-weight: 700;
   color: #000080;
   padding-left: 40px;
   border-left: 2px solid #00a550;
   font-size: 2.7rem;
 }
 
-blockquote h3 {
+.service__list h3 {
   margin-top: 80px;
   color: #d83131;
   font-size: 3.4rem;

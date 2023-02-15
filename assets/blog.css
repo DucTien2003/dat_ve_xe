@@ -1,0 +1,167 @@
+a:hover {
+  color: inherit;
+}
+
+.blog-content {
+  padding: 30px 0;
+}
+
+.blog__divider {
+  width: 30px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 18px auto;
+}
+
+.blog__title {
+  padding: 0 15px 30px;
+}
+
+.blog__title h1 {
+  font-size: 2.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.blog__title p {
+  font-size: 1.8rem;
+}
+
+.blog__main {
+  padding: 0 30px 30px;
+}
+
+.blog__item {
+  width: 100%;
+}
+
+.blog__item + .blog__item {
+  margin-top: 50px;
+}
+
+.blog__item__link a {
+  font-size: 1.3rem;
+  color: #0b344e;
+}
+
+.blog__item__link:hover a {
+  color: #000;
+}
+
+.blog__item__heading a {
+  font-size: 2.8rem;
+}
+
+.blog__item__subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 26px;
+}
+
+.blog__item__img,
+.blog__item__img img {
+  width: 100%;
+}
+
+.blog__item__descript {
+  margin-top: 28px;
+  font-size: 1.8rem;
+}
+
+.blog__item__readmore {
+  padding: 5px 12px;
+  margin: 20px 0;
+  color: #00a550;
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: 2px solid currentColor;
+}
+
+.blog__item__readmore:hover {
+  color: #fff;
+  background-color: #00a550;
+  border: 2px solid #00a550;
+}
+
+.blog__sidebar {
+  padding: 0 30px 30px;
+  border-left: 1px solid #ececec;
+}
+
+.blog__sidebar__heading {
+  font-size: 1.8rem;
+}
+
+.blog__sidebar__container {
+  margin-top: 10px;
+}
+
+.blog__sidebar__item {
+  width: 100%;
+}
+
+.blog__sidebar__item + .blog__sidebar__item {
+  border-top: 1px solid #ececec;
+  padding-top: 10px;
+  margin-top: 12px;
+}
+
+.blog__sidebar__img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 14px 0 0;
+}
+
+.blog__sidebar__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog__sidebar__text {
+  flex: 1;
+}
+
+.blog__sidebar__title a {
+  font-size: 1.8rem;
+  color: #0b344e;
+  line-height: 2.2rem;
+}
+
+.blog__sidebar__notify {
+  margin-top: 6px;
+  color: #0a0a0a;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.blog__pagination {
+  width: 100%;
+  border-top: 1px solid rgb(233, 233, 233);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.blog__pagination a {
+  margin: 0 6px;
+}
+
+.blog__pagination__item {
+  color: #000;
+  font-size: 1.6rem;
+  width: 36px;
+  height: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.blog__pagination__item:hover {
+  color: #fff;
+  background-color: #00a550;
+  border: 2px solid #00a550;
+}
+
+.pagination__active {
+  color: #fff;
+  background-color: #00a550;
+  border: 2px solid #00a550;
+}

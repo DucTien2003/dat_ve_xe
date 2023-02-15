@@ -20,7 +20,6 @@
 
 .contact__main-text h1 {
   padding-bottom: 10px;
-  font-weight: 700;
   font-size: 3rem;
   color: #00a550;
 }
@@ -41,7 +40,6 @@
 
 .contact__form h1 {
   color: #f00;
-  font-weight: 700;
 }
 
 .contact__input {
@@ -85,7 +83,6 @@
   margin-top: 12px;
   background-color: #00a550;
   font-size: 1.8rem;
-  font-weight: 700;
   color: white;
   border: none;
   cursor: pointer;

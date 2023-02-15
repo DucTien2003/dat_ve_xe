@@ -57,3 +57,10 @@
     display: none;
   }
 }
+
+/* < lg */
+@media (max-width: 991px) {
+  .blog__sidebar {
+    display: none;
+  }
+}

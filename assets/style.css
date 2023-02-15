@@ -46,6 +46,10 @@ p {
   justify-content: center;
 }
 
+.f-w-700 {
+  font-weight: 700;
+}
+
 .section {
   position: relative;
   display: flex;
@@ -101,7 +105,6 @@ p {
   border-top-right-radius: 21px;
   border-bottom-right-radius: 21px;
   padding: 4px 10px 4px 10px;
-  font-weight: 700;
   width: 172px;
 }
 
@@ -148,7 +151,6 @@ p {
   letter-spacing: 0.352;
   color: #0b344e;
   padding: 10px 0;
-  font-weight: 700;
 }
 
 .navbar__item + .navbar__item {
@@ -177,15 +179,6 @@ p {
   background-color: #fff;
   box-shadow: 2px 2px 10px rgb(0 0 0 / 0.15);
   animation: appear 0.2s ease-in;
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .sub-navbar__list::before {
@@ -230,10 +223,6 @@ p {
   width: 100%;
 }
 
-.recomment {
-  /* display: flex; */
-}
-
 .recomment__content {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -252,7 +241,6 @@ p {
   color: rgb(0, 165, 80);
   margin-bottom: 15px;
   font-size: 30px;
-  font-weight: 700;
   padding-top: 50px;
 }
 
@@ -268,7 +256,6 @@ p {
   background-color: #b20000;
   text-align: center;
   font-size: 17px;
-  font-weight: 700;
   line-height: 30px;
   margin-bottom: 50px;
 }
@@ -312,9 +299,6 @@ p {
   width: 100%;
 }
 
-.slider-item {
-}
-
 .slider-item img {
   display: block;
   width: 275px;
@@ -355,7 +339,6 @@ p {
 
 .feature__heading {
   color: #000;
-  font-weight: 700;
   font-size: 2.4rem;
 }
 
@@ -375,8 +358,6 @@ p {
 }
 
 /* sub-recomment */
-.sub-recomment {
-}
 
 .sub-recomment-wrapper {
   margin-top: -51px;
@@ -396,7 +377,6 @@ p {
 
 .sub-recomment__heading h2 {
   color: rgb(0, 165, 80);
-  font-weight: 700;
   font-size: 3.456rem;
 }
 
@@ -414,9 +394,6 @@ p {
   padding: 0px 30px 0px 60px;
 }
 
-.sub-recomment__img {
-}
-
 .sub-recomment__img img {
   padding: 0 25px;
   border-left: 3px solid rgb(236, 236, 236);
@@ -425,8 +402,6 @@ p {
 }
 
 /* banner */
-.banner {
-}
 
 .banner-wrapper {
   flex-wrap: wrap;
@@ -467,7 +442,6 @@ p {
   border: none;
   opacity: 0.7;
   font-size: 1.7rem;
-  font-weight: 700;
   background-color: #000;
   color: white;
   z-index: 1;
@@ -481,17 +455,6 @@ p {
 
 .banner-btn:hover a {
   color: white;
-}
-
-@keyframes up {
-  from {
-    opacity: 0.6;
-    bottom: 0%;
-  }
-  to {
-    opacity: 0.8;
-    bottom: 5px;
-  }
 }
 
 /* contact */
@@ -516,20 +479,17 @@ p {
 .contact-inner {
   padding: 20px;
   margin: 0 auto;
-  font-weight: 700;
   z-index: 1;
 }
 
 .contact-inner p {
   font-size: 1.5rem;
-  font-weight: 700;
   margin-bottom: 10px;
 }
 
 .contact-inner h1 {
   text-align: center;
   font-size: 4.6rem;
-  font-weight: 700;
   margin-bottom: 24px;
 }
 
@@ -545,7 +505,6 @@ p {
 
 .contact-inner button a {
   font-size: 2rem;
-  font-weight: 700;
   padding: 6px 20px;
 }
 
@@ -601,6 +560,25 @@ p {
 }
 
 .footer__heading {
-  font-weight: 700;
   margin: 0 0 10px 15px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes up {
+  from {
+    opacity: 0.6;
+    bottom: 0%;
+  }
+  to {
+    opacity: 0.8;
+    bottom: 5px;
+  }
 }
