@@ -13,3 +13,55 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* Modal */
+.wraper-modal {
+  /* width: 100%;
+  height: 100%;
+  justify-content: space-between; */
+}
+
+.modal-dialog {
+  max-width: none;
+  height: auto;
+  margin: auto;
+}
+
+.btn-close {
+  position: fixed;
+  background-color: #fff;
+  font-size: 2rem;
+  right: 20px;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal__img {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.modal__derection {
+  position: fixed;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.modal__derection.carousel-control-prev {
+  left: 5%;
+}
+
+.modal__derection.carousel-control-next {
+  right: 5%;
+}
+
+.modal__derection:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
