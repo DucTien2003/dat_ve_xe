@@ -15,11 +15,6 @@
 }
 
 /* Modal */
-.wraper-modal {
-  /* width: 100%;
-  height: 100%;
-  justify-content: space-between; */
-}
 
 .modal-dialog {
   max-width: none;
@@ -43,6 +38,12 @@
 .modal__img {
   margin: 0 auto;
   max-width: 80%;
+}
+
+.carousel-item {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .modal__derection {
